@@ -5,8 +5,9 @@ This software is available for windows right now
 
 ## Usage
 
-Usage: directory-emptier.exe {OPTIONS} [DIRECTORIES]
-
+```
+directory-emptier.exe {OPTIONS} [DIRECTORIES]
+```
 Moves the contents of DIRECTORIES into their parent directories and deletes it.
 
 ### OPTIONS:
