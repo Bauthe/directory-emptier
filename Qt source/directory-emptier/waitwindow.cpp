@@ -325,7 +325,7 @@ void WaitWindow::add_rename_button(QVector<QPushButton*>& buttons)
 void WaitWindow::usage()
 {
     QLabel label;
-    label.setText("Usage: directory-emptier {OPTIONS} [DIRECTORY]:\n");
+    label.setText("Usage: directory-emptier.exe {OPTIONS} [DIRECTORY]:\n");
     label.setText(label.text() + "\tMoves the contents of DIRECTORY into its parent directory and deletes it\n");
     label.setText(label.text() + "\nOPTIONS:\n");
     label.setText(label.text() + "\t-r --recursive : empty recursively\n");

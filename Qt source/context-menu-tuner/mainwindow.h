@@ -1,22 +1,42 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QMainWindow>
+#include <QWidget>
+#include <QLabel>
+#include <QScrollArea>
 
-namespace Ui {
-class MainWindow;
-}
+#include "guientry.h"
 
-class MainWindow : public QMainWindow
+class MainWindow : public QWidget
 {
     Q_OBJECT
 
-public:
-    explicit MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    public:
 
-private:
-    Ui::MainWindow *ui;
+        MainWindow();
+
+    private slots:
+
+        void add_entry();
+        void delete_selection();
+        void delete_entry(int index);
+        void save();
+        void init();
+        void quit();
+
+    private:
+
+        QScrollArea* s_area;
+        QWidget* s_big_widget;
+        QVBoxLayout* s_layout;
+        QVector<GuiEntry*> s_entries;
+        QVector<RegEntry*> s_removed_entries;
+
+        QPushButton* s_add_button;
+        QPushButton* s_delete_button;
+        QPushButton* s_save_button;
+        QPushButton* s_init_button;
+        QPushButton* s_quit_button;
 };
 
 #endif // MAINWINDOW_H
