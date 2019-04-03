@@ -26,3 +26,9 @@ Three char string defining behaviour in case of conflict :
 * n : do nothing
 * r : rename
 * m : merge
+
+# context-menu-tuner
+
+A software which edits windows registry to create custom context menu entries related with directory-emptier.
+
+It enables the user to select names and options of the context menu entries that will run directory-emptier.exe.
