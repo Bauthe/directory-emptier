@@ -1,7 +1,7 @@
 # directory-emptier
-A software enabling the user to empty directories directly from context menu
+A software enabling the user to empty directories directly from context menu.
 
-This software is available for windows right now
+This software is available for Windows right now.
 
 ## Usage
 
@@ -29,6 +29,6 @@ Three char string defining behaviour in case of conflict :
 
 # context-menu-tuner
 
-A software which edits windows registry to create custom context menu entries related with directory-emptier.
+A software which edits Windows registry to create custom context menu entries related with directory-emptier.
 
 It enables the user to select names and options of the context menu entries that will run directory-emptier.exe.
