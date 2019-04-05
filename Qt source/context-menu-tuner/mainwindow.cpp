@@ -3,6 +3,7 @@
 MainWindow::MainWindow()
 {
     setFixedSize(1000, 500);
+    setWindowTitle("Éditeur de menu contextuel");
 
     QLabel* name_label = new QLabel(this);
     name_label->setText("nom");
