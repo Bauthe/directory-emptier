@@ -1,0 +1,34 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;
+Actions=normal;conservative;recursive;conservative-recursive
+Encoding=UTF-8
+
+[Desktop Action normal]
+Exec=directory-emptier %f
+Icon=go-parent-folder
+
+Name=Empty directory here
+Name[fr]=Vider le dossier ici
+
+[Desktop Action conservative]
+Exec=directory-emptier -c %f
+Icon=go-parent-folder
+
+Name=Empty directory here without deleting
+Name[fr]=Vider le dossier ici sans le supprimer
+
+[Desktop Action recursive]
+Exec=directory-emptier -r %f
+Icon=go-parent-folder
+
+Name=Empty directory recursively here
+Name[fr]=Vider le dossier ici récursivement
+
+[Desktop Action conservative-recursive]
+Exec=directory-emptier -c -r %f
+Icon=go-parent-folder
+
+Name=Empty directory recursively here without deleting
+Name[fr]=Vider le dossier ici récursivement sans le supprimer

@@ -1,0 +1,5 @@
+This is the release of directory-emptier for GNU/Linux
+
+Steps for installation:
+1. Copy directory-emptier in your bin directory (or wherever you want)
+2. Create new context menu entries corresponding to what you want, following your distribution's specific steps. You can type "./directory-emptier --help" to see the options which are possible. For KDE users, there is a .desktop file you can inspire from. It lives in ~/.local/share/kservices5/ServicesMenu (create directory if it does not exist).
