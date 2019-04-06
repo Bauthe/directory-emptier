@@ -27,9 +27,9 @@ To remember the entries it created, context-menu-tuner will save it in a file na
 
 If the file "regentries" is accidently deleted or any issue with context menu is encountered, user needs to:
 
-1. Go to the registry editor (Windows+R, type "regedit" and then Enter) and delete all subkeys of "\HKEY_CLASSES_ROOT\Directory\shell" which begin with "directory_emptier"
-2. Create an empty file named "regentries" (with no extension) in the same directory as "context-menu-tuner.exe" (replace it if it already exists)
-3. Now user can use context-menu-tuner to create the entries they need
+1. Go to the registry editor (Windows+R, type "regedit" and then Enter) and delete all subkeys of "\HKEY_CLASSES_ROOT\Directory\shell" which begin with "directory_emptier".
+2. Create an empty file named "regentries" (with no extension) in the same directory as "context-menu-tuner.exe" (replace it if it already exists).
+3. Now user can use context-menu-tuner to create the entries they need.
 
 # Uninstallation
 
