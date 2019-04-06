@@ -1,3 +1,8 @@
+# Installation
+
+1. Extract directory-emptier.zip in any directory. For exemple in **"C:\Program Files\Directory Emptier\"**.
+2. Run context-menu-tuner.exe. To understand how it works, you can click on "reinitialize" button and see what happens when you right-click a directory.
+
 # context-menu-tuner
 
 A software which edits Windows registry to create custom context menu entries related with directory-emptier.
