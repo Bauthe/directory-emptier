@@ -15,11 +15,13 @@ Moves the contents of DIRECTORIES into their parent directories and deletes them
 * -c --conservative : let the original directory unchanged
 * -b --behaviour BEHAVIOUR : specify behaviour
 * -h --help : show a quick help and quit after 1min
+
 ### BEHAVIOURS:
 Three char string defining behaviour in case of conflict :
 * first char is about default behaviour (letters available : i c n r)
 * second char is about directory-directory conflicts (letters available : i m c n r)
 * last char is about conflicts with origin directory (letters available : i n r)
+
 ### letter code:
 **i** : ask user  
 **c** : crush  
