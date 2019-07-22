@@ -3,7 +3,7 @@
 1. Extract directory-emptier.zip in any directory. For exemple in **"C:\Program Files\Directory Emptier\"**.
 2. Run context-menu-tuner.exe. To understand how it works, you can click on "reinitialize" button and see what happens when you right-click a directory.
 
-If you are afraid to run context-menu-tuner because it requires root privileges, you can read the note below to understand what keys you must edit to add the required context menu entries. You can type ".\directory-emptier.exe --help" to understand some more about the possible options.
+If do not want to run context-menu-tuner because it requires root privileges, you can read the note below to understand what keys you must edit to add the required context menu entries. You can type ".\directory-emptier.exe --help" to understand some more about the possible options.
 
 You can also look at the source code at "https://github.com/Bauthe/directory-emptier", or even build it yourself with Qt.
 
