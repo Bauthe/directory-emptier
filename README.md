@@ -11,7 +11,7 @@ directory-emptier[.exe] {OPTIONS} [DIRECTORIES]
 Moves the contents of DIRECTORIES into their parent directories and deletes them.
 
 ### OPTIONS:
-* -r --recursive : empty recursively (aka removes any directory tree to keep only files)
+* -r --recursive : empty recursively (i.e. removes any directory tree to keep only files)
 * -c --conservative : let the original directory unchanged
 * -b --behaviour BEHAVIOUR : specify behaviour
 * -h --help : show a quick help and quit after 1min
